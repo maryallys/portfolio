@@ -1,7 +1,37 @@
-h1 {
-    font-family: 'Poppins', sans-serif;}
+:root {
+    --primary-color: f9f7fe;
+    --secondary-color: blueviolet;
+    --border-radius: 10px;
+}
+h6 {
+    font-family: 'Playfair Display', sans-serif;
+}
 p {
-font-family: 'Playfair Display', sans-serif;}
+    font-family: 'Poppins', sans-serif;
+}
 i {
     color: blueviolet;
+}
+.hero {
+    background-color: var(--primary-color);
+    text-align: center;
+}
+.hero p {
+        font-weight: bold;
+        font-size: 36px;
+        margin: 0;
+}
+.hero h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+}
+.btn-branding {
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+    color: rgb(220, 220, 220);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px, 20px;
+    background-color: rgb(85, 85, 147);
 }

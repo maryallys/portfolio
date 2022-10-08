@@ -55,7 +55,12 @@ i {
 }
 .text-muted {
     color: #6c757d;
-}
+    }
+.img-fluid {
+    max-width: 500px;
+    height: auto;
+    
+}    
 @media (max-width: 900px) {
     h1 {
         font-size: 44px;
@@ -63,6 +68,10 @@ i {
     }
     hero {
         padding: 80px 20px;
+    }
+    .about-section {
+        text-align: center;
+        padding: 0;
     }
     .project-description {
 padding: 0;

@@ -15,6 +15,9 @@ h1 {
     font-family: var(--heading-font-family);
     font-weight: bold;
 }
+h4 {
+    font-size: 26px;
+}
 p {  
     display: block;
     font-size: 16px;
@@ -88,11 +91,27 @@ nav li {
     max-width: 500px;
     height: auto;
     }
-   
-
-
 .active {
 color: var(--secondary-color);
+}
+footer .contact-box {
+    background-color: var(--primary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
 }
 @media (max-width: 900px) {
     h1 {

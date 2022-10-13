@@ -87,14 +87,15 @@ nav li {
     color: #6c757d;
     }
 .img-fluid {
-    max-width: 500px;
+    max-width: 400px;
     height: auto;
     }
 .active {
 color: #3dadcc;
 }
 .work-images {
-    max-height: 400px;
+    max-height: 200px;
+    width: auto;
 }
 footer .contact-box {
     background-color: var(--primary-color);

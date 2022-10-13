@@ -1,8 +1,9 @@
 :root {
-    --primary-color: #f9f7fe;
-    --secondary-color: #6C63FF;
-    --third-color: #272142
+    --primary-color: #f9f9f9;
+    --secondary-color: #3dadcc;
+    --third-color: #272142;
     --border-radius: 10px;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     --heading-font-family: 'Playfair Display', sans-serif;
     --default-font-family: 'Poppins', sans-serif;
     }
@@ -67,14 +68,13 @@ nav li {
     color: var(--third-color);
 }
 .btn-branding {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     border-radius: var(--border-radius);
     color: rgb(220, 220, 220);
     font-size: 18px;
     line-height: 27px;
     padding: 15px, 30px;
-    background-color: rgb(85, 85, 147);
-}
+  }
 .btn-branding-outline {
     background-color: var(--secondary-color);
     border-radius: var(--border-radius);
@@ -82,7 +82,6 @@ nav li {
     font-size: 18px;
     line-height: 27px;
     padding: 15px, 30px;
-    background-color: rgb(85, 85, 147);
 }
 .text-muted {
     color: #6c757d;
@@ -92,7 +91,7 @@ nav li {
     height: auto;
     }
 .active {
-color: var(--secondary-color);
+color: #272142;
 }
 footer .contact-box {
     background-color: var(--primary-color);

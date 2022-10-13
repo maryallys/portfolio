@@ -5,9 +5,8 @@
     --heading-font-family: 'Playfair Display', sans-serif;
     --default-font-family: 'Poppins', sans-serif;
     }
-    body {
+body {
         font-family: var(--default-font-family);
-
     }
 h1 {
     line-height: 1.5;
@@ -24,6 +23,28 @@ p {
 i {
     color: blueviolet;
 }
+nav {
+    padding: 20px 0;
+}
+nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+.logo {
+    max-height: 40px;
+}
 .hero {
     background-color: var(--primary-color);
     text-align: center;
@@ -35,8 +56,8 @@ i {
     font-weight: normal;
     font-size: 24px;
 }
-.btn-branding-outline {
-    background-color: var(--secondary-color);
+.btn-branding {
+    background-color: var(--primary-color);
     border-radius: var(--border-radius);
     color: rgb(220, 220, 220);
     font-size: 18px;
@@ -44,8 +65,8 @@ i {
     padding: 15px, 30px;
     background-color: rgb(85, 85, 147);
 }
-.btn-branding {
-    background-color: var(--primary-color);
+.btn-branding-outline {
+    background-color: var(--secondary-color);
     border-radius: var(--border-radius);
     color: rgb(220, 220, 220);
     font-size: 18px;
@@ -59,8 +80,19 @@ i {
 .img-fluid {
     max-width: 500px;
     height: auto;
-    
+    }
+.justify-content-between {
+    justify-content: space-between!important;
 }    
+.d-flex {
+    display: flex!important;
+}
+.d-none {
+display: none!important;
+}
+.d-block {
+    display: block!important    ;
+}
 @media (max-width: 900px) {
     h1 {
         font-size: 44px;
@@ -74,6 +106,6 @@ i {
         padding: 0;
     }
     .project-description {
-padding: 0;
+        padding: 0;
     }
 }

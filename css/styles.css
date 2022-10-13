@@ -116,6 +116,9 @@ footer .social-links a {
     font-size: 18px;
     transition: all 100ms ease-in-out;
 }
+footer .social-links:hover {
+    background-color: aquamarine;
+}
 @media (max-width: 900px) {
     h1 {
         font-size: 44px;

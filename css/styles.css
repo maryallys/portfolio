@@ -26,7 +26,7 @@ p {
     line-height: 30px;
 }
 i {
-    color: blueviolet;
+    color: var(--secondary-color);
 }
 nav {
     padding: 20px 0;
@@ -91,7 +91,10 @@ nav li {
     height: auto;
     }
 .active {
-color: #272142;
+color: #3dadcc;
+}
+.work-images {
+    max-height: 400px;
 }
 footer .contact-box {
     background-color: var(--primary-color);

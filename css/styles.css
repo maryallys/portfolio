@@ -87,8 +87,11 @@ nav li {
     color: #6c757d;
     }
 .img-fluid {
-    max-width: 400px;
-    height: auto;
+    max-height: 350px;
+    border-radius: var(--border-radius);
+    display: block;
+    text-align: center;
+    margin: 0 auto;
     }
 .active {
 color: #3dadcc;
@@ -121,11 +124,16 @@ footer .social-links:hover {
 }
 @media (max-width: 900px) {
     h1 {
-        font-size: 44px;
+        font-size: 26px;
         line-height: 2;
+        margin-bottom: 0;
+        padding: 0;
     }
     hero {
         padding: 80px 20px;
+    }
+    nav {
+        font-size: 12px;
     }
     .about-section {
         text-align: center;
